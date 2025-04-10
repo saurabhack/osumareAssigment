@@ -171,8 +171,8 @@ Delete a task by ID.
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/task-manager-api.git
-cd task-manager-api
+git clone https://github.com/saurabhack/osumareAssigment.git
+cd osumareAssignment
 ```
 
 2. Install dependencies:
@@ -184,7 +184,7 @@ npm install
 3. Start the server:
 
 ```bash
-node index.js
+npm run dev
 ```
 
 Server will run on:  
@@ -198,47 +198,3 @@ http://localhost:3000
 curl -X POST http://localhost:3000/tasks -H "Content-Type: application/json" -d '{"title": "Learn Node", "description": "Practice Express API"}'
 ```
 
-Or use Postman for visual testing.
-
----
-
-## 🏢 Company Info
-
-**Osumare Marketing Solutions Pvt. Ltd.**  
-📍 Osumare Building, Survey No. 43, Pathare Thube Nagar,  
-Near Kharadi Bypass, Kharadi, Pune 14  
-🌐 [www.osumare.com](http://www.osumare.com)
-
----
-
-## 👤 Contact
-
-**Pratik Dhere**  
-_Web Team Lead_  
-📧 pratik.dhere@osumare.in  
-📞 9130316771
-
----
-
-## 📅 Deadline
-
-**Submission Deadline:** 2 Days from assignment received.
-
-Upload your project to GitHub and share the link at:  
-📧 **pratik.dhere@osumare.in**
-
----
-
-## ⚠️ Note
-
-🚫 **AI-generated code will not be accepted.**
-
----
-
-## ⭐ Bonus Features (Optional)
-
-- [ ] Pagination on `GET /tasks`
-- [ ] Sorting and filtering
-- [ ] Authentication/Authorization
-
----
